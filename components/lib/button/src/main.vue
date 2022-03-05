@@ -88,7 +88,7 @@ export default {
             ? this.getBgStyle(this.type, this.bgColor, 0.4)
             : this.getBgStyle(this.type, this.bgColor, 1)
           : this.getBgStyle(this.type, this.bgColor, 0.9, this.plain, true),
-        "--opacity-bg": this.disabled ? 0.4 : 1,
+        "--opacity-bg": this.disabled ? 0.5 : 1,
       };
     },
   },
