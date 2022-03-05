@@ -2,7 +2,7 @@
 卡片
 
 ### 示例
-<yzl-card imgSrc="/logo.png" summary="test"></yzl-card>
+<yzl-card imgSrc="/yalUI/logo.png" summary="test"></yzl-card>
 
 ### 代码
 ```html
