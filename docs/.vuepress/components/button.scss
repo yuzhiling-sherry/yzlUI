@@ -1,0 +1,18 @@
+.yzl-button{
+    padding:5px;
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:var(--cursor);
+    color:var(--font-color);
+    border:var(--border-style);
+    background-color:var(--background-color);
+    opacity: var(--opacity-bg);
+    &:hover{
+        color:var(--font-color-hover);
+        border:var(--border-style-hover);
+        opacity: var(--opacity-bg);
+        background-color: var(--background-color-hover);
+    }
+}
