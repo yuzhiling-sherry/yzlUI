@@ -2,64 +2,55 @@
 按钮
 
 ### 示例
-<p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
 <yzl-button style="margin-right:10px;">默认按钮</yzl-button>
-<yzl-button disabled style="margin-right:10px;">默认按钮</yzl-button>
-<yzl-button type="success" style="margin-right:10px;">成功按钮</yzl-button>
-<yzl-button type="success" disabled>成功按钮(禁用)</yzl-button>
-</p>
-<p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
-<yzl-button type="text" bgColor="#CD5C5C" style="margin-right:10px;">文字按钮</yzl-button>
-<yzl-button type="text" bgColor="#CD5C5C" disabled>文字按钮(禁用)</yzl-button>
-</p>
-<p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
-<yzl-button plain style="margin-right:10px;">朴素按钮</yzl-button>
-<yzl-button plain disabled style="margin-right:10px;">朴素按钮</yzl-button>
-<yzl-button type="error" plain style="margin-right:10px;">状态朴素按钮</yzl-button>
-<yzl-button type="error" plain disabled>朴素按钮(禁用)</yzl-button>
-</p>
-<p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
-<yzl-button type="success" round>成功圆角按钮</yzl-button>
-</p>
-<p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
-<yzl-button circle>圆</yzl-button>
-</p>
-<p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
-<yzl-button style="margin-right:10px;">默认按钮</yzl-button>
-<yzl-button size="small" style="margin-right:10px;">小按钮</yzl-button>
-<yzl-button size="mini">迷你按钮</yzl-button>
-</p>
-<p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
-<yzl-button bgColor="#CD5C5C" style="margin-right:10px;">自定义颜色按钮</yzl-button>
-<yzl-button bgColor="#CD5C5C" disabled>自定义颜色(禁用)</yzl-button>
-</p>
 
 ### 基本用法
+<p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
+    <yzl-button style="margin-right:10px;">默认按钮</yzl-button>
+    <yzl-button plain style="margin-right:10px;">朴素按钮</yzl-button>
+    <yzl-button round>圆角按钮</yzl-button>
+</p>
+
 ```html
-<p>
 <yzl-button>默认按钮</yzl-button>
+<yzl-button plain>朴素按钮</yzl-button>
+<yzl-button round>圆角按钮</yzl-button>
+```
+
+### 带状态用法
+<p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
+    <yzl-button style="margin-right:10px;" type="success" >默认按钮</yzl-button>
+    <yzl-button plain  type="success" style="margin-right:10px;">朴素按钮</yzl-button>
+    <yzl-button round type="success" >圆角按钮</yzl-button>
+</p>
+
+```html
 <yzl-button type="primary">主要按钮</yzl-button>
 <yzl-button type="success">成功按钮</yzl-button>
 <yzl-button type="error">错误按钮</yzl-button>
 <yzl-button type="warning">警告按钮</yzl-button>
-</p>
-<p>
-<yzl-button plain>朴素按钮</yzl-button>
+
 <yzl-button type="primary" plain>主要按钮</yzl-button>
 <yzl-button type="success" plain>成功按钮</yzl-button>
 <yzl-button type="error" plain>错误按钮</yzl-button>
 <yzl-button type="warning" plain>警告按钮</yzl-button>
-</p>
-<p>
+
 <yzl-button round>圆角按钮</yzl-button>
 <yzl-button type="primary" round>主要按钮</yzl-button>
 <yzl-button type="success" round>成功按钮</yzl-button>
 <yzl-button type="error" round>错误按钮</yzl-button>
 <yzl-button type="warning" round>警告按钮</yzl-button>
-</p>
 ```
 
 ### 禁用状态
+
+<p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
+<yzl-button disabled style="margin-right:10px;">默认按钮</yzl-button>
+<yzl-button disabled plain style="margin-right:10px;">朴素按钮</yzl-button>
+<yzl-button disabled round style="margin-right:10px;">圆角按钮</yzl-button>
+<yzl-button type="text" bgColor="#CD5C5C" disabled>文字按钮</yzl-button>
+</p>
+
 ```html
 <yzl-button disabled>默认按钮</yzl-button>
 <yzl-button disabled plain>朴素按钮</yzl-button>
@@ -70,18 +61,48 @@
 ```
 
 ### 文字按钮
+
+<p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
+<yzl-button type="text" bgColor="#CD5C5C" style="margin-right:10px;">文字按钮</yzl-button>
+<yzl-button type="text" bgColor="#CD5C5C" disabled>文字按钮(禁用)</yzl-button>
+</p>
+
 ```html
 <yzl-button type="text">文字按钮</yzl-button>
 <yzl-button type="text" disabled>文字按钮(禁用)</yzl-button>
 ```
 
+### 圆形按钮
+
+<p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
+<yzl-button circle>圆</yzl-button>
+</p>
+
+```html
+<yzl-button bgColor="#CD5C5C" round>自定义颜色按钮</yzl-button>
+```
+
+
 ### 自定义颜色按钮
+
+<p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
+<yzl-button bgColor="#CD5C5C" style="margin-right:10px;">自定义颜色按钮</yzl-button>
+<yzl-button bgColor="#CD5C5C" disabled>自定义颜色(禁用)</yzl-button>
+</p>
+
 ```html
 <yzl-button bgColor="#CD5C5C">自定义颜色按钮</yzl-button>
 <yzl-button bgColor="#CD5C5C" disabled>自定义颜色按钮(禁用)</yzl-button>
 ```
 
 ### 不同尺寸
+
+<p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
+<yzl-button style="margin-right:10px;">默认按钮</yzl-button>
+<yzl-button size="small" style="margin-right:10px;">小按钮</yzl-button>
+<yzl-button size="mini">迷你按钮</yzl-button>
+</p>
+
 ```html
 <yzl-button>默认按钮</yzl-button>
 <yzl-button size="small">小按钮</yzl-button>
