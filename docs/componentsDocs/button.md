@@ -45,68 +45,68 @@
 ### 禁用状态
 
 <p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
-<yzl-button disabled style="margin-right:10px;">默认按钮</yzl-button>
-<yzl-button disabled plain style="margin-right:10px;">朴素按钮</yzl-button>
-<yzl-button disabled round style="margin-right:10px;">圆角按钮</yzl-button>
-<yzl-button type="text" bgColor="#CD5C5C" disabled>文字按钮</yzl-button>
+<yzl-button disabled style="margin-right:10px;margin-bottom:5px;">默认按钮</yzl-button>
+<yzl-button disabled plain style="margin-right:10px;margin-bottom:5px;">朴素按钮</yzl-button>
+<yzl-button disabled round style="margin-right:10px;margin-bottom:5px;">圆角按钮</yzl-button>
+<yzl-button type="text" bgColor="#CD5C5C" disabled style="margin-bottom:5px;">文字按钮</yzl-button>
 </p>
 
 ```html
-<yzl-button disabled>默认按钮</yzl-button>
-<yzl-button disabled plain>朴素按钮</yzl-button>
-<yzl-button type="primary" disabled>主要按钮</yzl-button>
-<yzl-button type="success" plain disabled>成功按钮</yzl-button>
-<yzl-button type="error" disabled round>错误按钮</yzl-button>
-<yzl-button type="warning" disabled circle>圆</yzl-button>
+<yzl-button disabled style="margin-bottom:5px;">默认按钮</yzl-button>
+<yzl-button disabled plain style="margin-bottom:5px;">朴素按钮</yzl-button>
+<yzl-button type="primary" disabled style="margin-bottom:5px;">主要按钮</yzl-button>
+<yzl-button type="success" plain disabled style="margin-bottom:5px;">成功按钮</yzl-button>
+<yzl-button type="error" disabled round style="margin-bottom:5px;">错误按钮</yzl-button>
+<yzl-button type="warning" disabled circle style="margin-bottom:5px;">圆</yzl-button>
 ```
 
 ### 文字按钮
 
 <p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
-<yzl-button type="text" bgColor="#CD5C5C" style="margin-right:10px;">文字按钮</yzl-button>
-<yzl-button type="text" bgColor="#CD5C5C" disabled>文字按钮(禁用)</yzl-button>
+<yzl-button type="text" bgColor="#CD5C5C" style="margin-right:10px;margin-bottom:5px;">文字按钮</yzl-button>
+<yzl-button type="text" bgColor="#CD5C5C" disabled style="margin-bottom:5px;">文字按钮(禁用)</yzl-button>
 </p>
 
 ```html
-<yzl-button type="text">文字按钮</yzl-button>
-<yzl-button type="text" disabled>文字按钮(禁用)</yzl-button>
+<yzl-button type="text" style="margin-bottom:5px;">文字按钮</yzl-button>
+<yzl-button type="text" disabled style="margin-bottom:5px;">文字按钮(禁用)</yzl-button>
 ```
 
 ### 圆形按钮
 
 <p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
-<yzl-button circle>圆</yzl-button>
+<yzl-button circle style="margin-bottom:5px;">圆</yzl-button>
 </p>
 
 ```html
-<yzl-button bgColor="#CD5C5C" round>自定义颜色按钮</yzl-button>
+<yzl-button bgColor="#CD5C5C" round style="margin-bottom:5px;">自定义颜色按钮</yzl-button>
 ```
 
 
 ### 自定义颜色按钮
 
 <p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
-<yzl-button bgColor="#CD5C5C" style="margin-right:10px;">自定义颜色按钮</yzl-button>
-<yzl-button bgColor="#CD5C5C" disabled>自定义颜色(禁用)</yzl-button>
+<yzl-button bgColor="#CD5C5C" style="margin-right:10px;margin-bottom:5px;">自定义颜色按钮</yzl-button>
+<yzl-button bgColor="#CD5C5C" disabled style="margin-bottom:5px;">自定义颜色(禁用)</yzl-button>
 </p>
 
 ```html
-<yzl-button bgColor="#CD5C5C">自定义颜色按钮</yzl-button>
-<yzl-button bgColor="#CD5C5C" disabled>自定义颜色按钮(禁用)</yzl-button>
+<yzl-button bgColor="#CD5C5C" style="margin-bottom:5px;">自定义颜色按钮</yzl-button>
+<yzl-button bgColor="#CD5C5C" disabled style="margin-bottom:5px;">自定义颜色按钮(禁用)</yzl-button>
 ```
 
 ### 不同尺寸
 
 <p style="display:flex;justify-content:flex-start;align-items:center;flex-wrap: wrap;">
-<yzl-button style="margin-right:10px;">默认按钮</yzl-button>
-<yzl-button size="small" style="margin-right:10px;">小按钮</yzl-button>
-<yzl-button size="mini">迷你按钮</yzl-button>
+<yzl-button style="margin-right:10px;margin-bottom:5px;">默认按钮</yzl-button>
+<yzl-button size="small" style="margin-right:10px;margin-bottom:5px;">小按钮</yzl-button>
+<yzl-button size="mini" style="margin-bottom:5px;">迷你按钮</yzl-button>
 </p>
 
 ```html
-<yzl-button>默认按钮</yzl-button>
-<yzl-button size="small">小按钮</yzl-button>
-<yzl-button size="mini">迷你按钮</yzl-button>
+<yzl-button style="margin-bottom:5px;">默认按钮</yzl-button>
+<yzl-button size="small" style="margin-bottom:5px;">小按钮</yzl-button>
+<yzl-button size="mini" style="margin-bottom:5px;">迷你按钮</yzl-button>
 ```
 
 ### Attributes
