@@ -4,7 +4,6 @@
 ### 示例
 <script>
 export default {
-    name: 'App',
     data(){
         return{
             sex:'1',
@@ -23,7 +22,6 @@ export default {
 ### 基本用法
 <script>
 export default {
-    name: 'App',
     data(){
         return{
             sex1:'1',
@@ -46,7 +44,6 @@ export default {
 ```
 ```js
 export default {
-    name: 'App',
     data(){
         return{
             sex1:'1',
@@ -63,7 +60,6 @@ export default {
 ### 禁用状态
 <script>
 export default {
-    name: 'App',
     data(){
         return{
             sex2:'1',
@@ -86,7 +82,6 @@ export default {
 ```js
 <script>
 export default {
-    name: 'App',
     data(){
         return{
             sex2:'1',
