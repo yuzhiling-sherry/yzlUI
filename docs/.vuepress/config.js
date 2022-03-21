@@ -13,7 +13,8 @@ module.exports = {
       '/',
       '/componentsDocs/card',
       '/componentsDocs/button',
-      '/componentsDocs/radio'
+      '/componentsDocs/radio',
+      '/componentsDocs/radio-group'
     ]
   }
 }
