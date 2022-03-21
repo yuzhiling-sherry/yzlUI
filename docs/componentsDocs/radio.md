@@ -30,19 +30,19 @@ export default {
         }
     },
     methods:{
-        sexClick(e){
+        sexClick1(e){
             this.sex1 = e
         }
     }
 }
 </script>
-<yzl-radio v-model='sex1' :value="sex1" label="1" @click="sexClick">备选项1</yzl-radio>
-<yzl-radio v-model='sex1' :value="sex1" label="2" @click="sexClick">备选项2</yzl-radio>
+<yzl-radio v-model='sex1' :value="sex1" label="1" @click="sexClick1">备选项1</yzl-radio>
+<yzl-radio v-model='sex1' :value="sex1" label="2" @click="sexClick1">备选项2</yzl-radio>
 
 
 ```html
-<yzl-radio v-model='sex1' :value="sex1" label="1">备选项1</yzl-radio>
-<yzl-radio v-model='sex1' :value="sex1" label="2">备选项2</yzl-radio>
+<yzl-radio v-model='sex1' :value="sex1" label="1" @click="sexClick1">备选项1</yzl-radio>
+<yzl-radio v-model='sex1' :value="sex1" label="2" @click="sexClick1">备选项2</yzl-radio>
 ```
 ```js
 export default {
@@ -53,7 +53,7 @@ export default {
         }
     },
     methods:{
-        sexClick(e){
+        sexClick1(e){
             this.sex1 = e
         }
     }
@@ -70,18 +70,18 @@ export default {
         }
     },
     methods:{
-        sexClick(e){
+        sexClick2(e){
             this.sex2 = e
         }
     }
 }
 </script>
-<yzl-radio v-model='sex2' :value="sex2" label="1" @click="sexClick" disabled>备选项1</yzl-radio>
-<yzl-radio v-model='sex2' :value="sex2" label="2" @click="sexClick" disabled>备选项2</yzl-radio>
+<yzl-radio v-model='sex2' :value="sex2" label="1" @click="sexClick2" disabled>备选项1</yzl-radio>
+<yzl-radio v-model='sex2' :value="sex2" label="2" @click="sexClick2" disabled>备选项2</yzl-radio>
 
 ```html
-<yzl-radio v-model='sex2' :value="sex2" label="1" @click="sexClick" disabled>备选项1</yzl-radio>
-<yzl-radio v-model='sex2' :value="sex2" label="2" @click="sexClick" disabled>备选项2</yzl-radio>
+<yzl-radio v-model='sex2' :value="sex2" label="1" @click="sexClick2" disabled>备选项1</yzl-radio>
+<yzl-radio v-model='sex2' :value="sex2" label="2" @click="sexClick2" disabled>备选项2</yzl-radio>
 ```
 ```js
 <script>
@@ -93,7 +93,7 @@ export default {
         }
     },
     methods:{
-        sexClick(e){
+        sexClick2(e){
             this.sex2 = e
         }
     }
