@@ -2,40 +2,13 @@
 单选框
 
 ### 示例
-<script>
-export default {
-    data(){
-        return{
-            sex:'1',
-        }
-    },
-    methods:{
-        sexClick(e){
-            this.sex = e
-        }
-    }
-}
-</script>
-<yzl-radio v-model='sex' :value="sex" label="1" @click="sexClick">备选项1</yzl-radio>
-<yzl-radio v-model='sex' :value="sex" label="2" @click="sexClick">备选项2</yzl-radio>
+<yzl-radio value="1" label="1" @click="sexClick">备选项1</yzl-radio>
+<yzl-radio value="1" label="2" @click="sexClick">备选项2</yzl-radio>
 
 ### 基本用法
-<script>
-export default {
-    data(){
-        return{
-            sex1:'1',
-        }
-    },
-    methods:{
-        sexClick1(e){
-            this.sex1 = e
-        }
-    }
-}
 </script>
-<yzl-radio v-model='sex1' :value="sex1" label="1" @click="sexClick1">备选项1</yzl-radio>
-<yzl-radio v-model='sex1' :value="sex1" label="2" @click="sexClick1">备选项2</yzl-radio>
+<yzl-radio value="1" label="1">备选项1</yzl-radio>
+<yzl-radio value="2" label="2">备选项2</yzl-radio>
 
 
 ```html
