@@ -43,6 +43,7 @@ export default {
 <yzl-radio v-model='sex1' :value="sex1" label="2" @click="sexClick1">备选项2</yzl-radio>
 ```
 ```js
+<script>
 export default {
     data(){
         return{
@@ -55,6 +56,7 @@ export default {
         }
     }
 }
+</script>
 ```
 
 ### 禁用状态
