@@ -12,8 +12,7 @@ module.exports = {
     sidebar: [
       '/',
       '/componentsDocs/card',
-      '/componentsDocs/button',
-      '/componentsDocs/radio'
+      '/componentsDocs/button'
     ]
   }
 }
